@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+.nav_bar{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+}
+.logo{
+    width: 50%;
+    height: 80px;
+    background-color: #EAE5DC;
+    float: left;
+    padding-left: 200px;
+}
+.navigation{
+    width: 50%;
+    height: 80px;
+    background-color: #EAE5DC;
+    float: left;
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+a{
+    color: #E1533C;
+    text-decoration: none;
+}
+.banner_box{
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+.left_col{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.right_col{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.banner{
+    width: 90%;
+    height: 500px;
+    float: right;
+    background-image: url(images/pets.png);
+    background-size: cover;
+    background-position: center;
+}
+.top_heading{
+    font-size: 80px;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 170px;
+    margin-left: 50px;
+}
+.top_heading_2{
+    font-size: 60px;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+.footer{
+    width: 100%;
+    height: 120px;
+    float: left; 
+    background-color: #E1533C;  
+}
+.footer_left_col{
+    width: 50%;
+    height: 120px;
+    float: left; 
+    font-size: 20px;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_right_col{
+    width: 50%;
+    height: 120px;
+    float: left; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    margin-left: 20px;
+}
+.contact{
+    font-size: 50px;
+    font-weight: 700;
+    color: #E1533C;
+    margin-left: 200px;
+    margin-top: 50px;
+}
